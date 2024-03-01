@@ -14,8 +14,12 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
-  <h4>This is an elemnet!</h4>;
-  return <h1>Hi there!</h1>;
+  let message = 'Bye there!'; // 0.5 second later, this will be changed to 'Hi there!'
+  if (Math.random() > 0.5) {
+    message = 'Hi there!';
+  }
+
+  return <h1>{message}</h1>;
 }
 
 // 5) Show the component on the screen
