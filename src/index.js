@@ -14,7 +14,8 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
-  return <input maxLength={5} />;
+//   return <input spellCheck={true} />;
+  return <input spellCheck={false} />;
 }
 
 // 5) Show the component on the screen
