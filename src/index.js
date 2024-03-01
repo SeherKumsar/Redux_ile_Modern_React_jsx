@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import App from './App';
+import MyApp from './App';
 
 // 2) Get a reference to the div with id 'root' in the index.html
 // 2) index.html'deki id'si 'root' olan div'e bir referans alın
@@ -19,4 +19,4 @@ const root = ReactDOM.createRoot(el);
 
 // 5) Show the component on the screen
 // 5) Bileşeni ekranda gösterin
-root.render(<App />);
+root.render(<MyApp />);
