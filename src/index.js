@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
-  return <textarea autoFocus={true} />;
+  return <input maxLength={5} />;
 }
 
 // 5) Show the component on the screen
