@@ -14,9 +14,7 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
-  const inputType = "number";
-  const minValue = 5;
-  return <input type={inputType} min={minValue} />;
+  return <input style={{border: '3px solid red'}} type="number" min={5} />;
 }
 
 // 5) Show the component on the screen
