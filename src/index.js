@@ -14,12 +14,10 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
-    // const message = 'Hello, world!';
-    // const message = 123456789;
-    // const message = [1, 2, 3, 4, 5];
-    const message = {};
-
-  return <h1>{message}</h1>;
+//   const date = new Date();
+//   const time = date.toLocaleTimeString();
+//   return <h1>{time}</h1>;
+  return <h1>{new Date().toLocaleTimeString()}</h1>;
 }
 
 // 5) Show the component on the screen
