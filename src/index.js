@@ -3,6 +3,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import App from './App';
+
 // 2) Get a reference to the div with id 'root' in the index.html
 // 2) index.html'deki id'si 'root' olan div'e bir referans alın
 const el = document.getElementById('root');
@@ -13,9 +15,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
-function App() {
-  return <input style={{ border: '1px solid blue'}} />;
-}
+// Buradaki component, src/App.js'de bulunan App component içerisinde taşındı.
 
 // 5) Show the component on the screen
 // 5) Bileşeni ekranda gösterin
