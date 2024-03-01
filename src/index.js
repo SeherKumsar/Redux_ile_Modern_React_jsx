@@ -14,10 +14,10 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
-  let message = 'Bye there!'; // 0.5 second later, this will be changed to 'Hi there!'
-  if (Math.random() > 0.5) {
-    message = 'Hi there!';
-  }
+    // const message = 'Hello, world!';
+    // const message = 123456789;
+    // const message = [1, 2, 3, 4, 5];
+    const message = {};
 
   return <h1>{message}</h1>;
 }
