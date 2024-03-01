@@ -14,11 +14,9 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
-  const name = "Seher";
-  const age = 24;
-  return <h1>
-    Hi, my name is {name} and my age is {age}.
-  </h1>;
+  const inputType = "number";
+  const minValue = 5;
+  return <input type={inputType} min={minValue} />;
 }
 
 // 5) Show the component on the screen
