@@ -14,6 +14,7 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a React component
 // 4) Bir React bileşeni oluşturun
 function App() {
+  <h4>This is an elemnet!</h4>;
   return <h1>Hi there!</h1>;
 }
 
